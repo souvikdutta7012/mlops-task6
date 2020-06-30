@@ -1,0 +1,493 @@
+{
+    "settings": {
+        "input_size": {
+            "min_dim": 800,
+            "max_dim": 1024
+        }
+    },
+    "classes": [
+        {
+            "title": "person",
+            "shape": "bitmap",
+            "color": "#7f3f3f"
+        },
+        {
+            "title": "bicycle",
+            "shape": "bitmap",
+            "color": "#7f443f"
+        },
+        {
+            "title": "car",
+            "shape": "bitmap",
+            "color": "#7f493f"
+        },
+        {
+            "title": "motorcycle",
+            "shape": "bitmap",
+            "color": "#7f4e3f"
+        },
+        {
+            "title": "airplane",
+            "shape": "bitmap",
+            "color": "#7f523f"
+        },
+        {
+            "title": "bus",
+            "shape": "bitmap",
+            "color": "#7f573f"
+        },
+        {
+            "title": "train",
+            "shape": "bitmap",
+            "color": "#7f5c3f"
+        },
+        {
+            "title": "truck",
+            "shape": "bitmap",
+            "color": "#7f613f"
+        },
+        {
+            "title": "boat",
+            "shape": "bitmap",
+            "color": "#7f663f"
+        },
+        {
+            "title": "traffic light",
+            "shape": "bitmap",
+            "color": "#7f6a3f"
+        },
+        {
+            "title": "fire hydrant",
+            "shape": "bitmap",
+            "color": "#7f6f3f"
+        },
+        {
+            "title": "stop sign",
+            "shape": "bitmap",
+            "color": "#7f743f"
+        },
+        {
+            "title": "parking meter",
+            "shape": "bitmap",
+            "color": "#7f793f"
+        },
+        {
+            "title": "bench",
+            "shape": "bitmap",
+            "color": "#7f7d3f"
+        },
+        {
+            "title": "bird",
+            "shape": "bitmap",
+            "color": "#7c7f3f"
+        },
+        {
+            "title": "cat",
+            "shape": "bitmap",
+            "color": "#777f3f"
+        },
+        {
+            "title": "dog",
+            "shape": "bitmap",
+            "color": "#727f3f"
+        },
+        {
+            "title": "horse",
+            "shape": "bitmap",
+            "color": "#6d7f3f"
+        },
+        {
+            "title": "sheep",
+            "shape": "bitmap",
+            "color": "#697f3f"
+        },
+        {
+            "title": "cow",
+            "shape": "bitmap",
+            "color": "#647f3f"
+        },
+        {
+            "title": "elephant",
+            "shape": "bitmap",
+            "color": "#5f7f3f"
+        },
+        {
+            "title": "bear",
+            "shape": "bitmap",
+            "color": "#5a7f3f"
+        },
+        {
+            "title": "zebra",
+            "shape": "bitmap",
+            "color": "#567f3f"
+        },
+        {
+            "title": "giraffe",
+            "shape": "bitmap",
+            "color": "#517f3f"
+        },
+        {
+            "title": "backpack",
+            "shape": "bitmap",
+            "color": "#4c7f3f"
+        },
+        {
+            "title": "umbrella",
+            "shape": "bitmap",
+            "color": "#477f3f"
+        },
+        {
+            "title": "handbag",
+            "shape": "bitmap",
+            "color": "#427f3f"
+        },
+        {
+            "title": "tie",
+            "shape": "bitmap",
+            "color": "#3f7f41"
+        },
+        {
+            "title": "suitcase",
+            "shape": "bitmap",
+            "color": "#3f7f46"
+        },
+        {
+            "title": "frisbee",
+            "shape": "bitmap",
+            "color": "#3f7f4a"
+        },
+        {
+            "title": "skis",
+            "shape": "bitmap",
+            "color": "#3f7f4f"
+        },
+        {
+            "title": "snowboard",
+            "shape": "bitmap",
+            "color": "#3f7f54"
+        },
+        {
+            "title": "sports ball",
+            "shape": "bitmap",
+            "color": "#3f7f59"
+        },
+        {
+            "title": "kite",
+            "shape": "bitmap",
+            "color": "#3f7f5e"
+        },
+        {
+            "title": "baseball bat",
+            "shape": "bitmap",
+            "color": "#3f7f62"
+        },
+        {
+            "title": "baseball glove",
+            "shape": "bitmap",
+            "color": "#3f7f67"
+        },
+        {
+            "title": "skateboard",
+            "shape": "bitmap",
+            "color": "#3f7f6c"
+        },
+        {
+            "title": "surfboard",
+            "shape": "bitmap",
+            "color": "#3f7f71"
+        },
+        {
+            "title": "tennis racket",
+            "shape": "bitmap",
+            "color": "#3f7f75"
+        },
+        {
+            "title": "bottle",
+            "shape": "bitmap",
+            "color": "#3f7f7a"
+        },
+        {
+            "title": "wine glass",
+            "shape": "bitmap",
+            "color": "#3f7f7f"
+        },
+        {
+            "title": "cup",
+            "shape": "bitmap",
+            "color": "#3f7a7f"
+        },
+        {
+            "title": "fork",
+            "shape": "bitmap",
+            "color": "#3f757f"
+        },
+        {
+            "title": "knife",
+            "shape": "bitmap",
+            "color": "#3f717f"
+        },
+        {
+            "title": "spoon",
+            "shape": "bitmap",
+            "color": "#3f6c7f"
+        },
+        {
+            "title": "bowl",
+            "shape": "bitmap",
+            "color": "#3f677f"
+        },
+        {
+            "title": "banana",
+            "shape": "bitmap",
+            "color": "#3f627f"
+        },
+        {
+            "title": "apple",
+            "shape": "bitmap",
+            "color": "#3f5e7f"
+        },
+        {
+            "title": "sandwich",
+            "shape": "bitmap",
+            "color": "#3f597f"
+        },
+        {
+            "title": "orange",
+            "shape": "bitmap",
+            "color": "#3f547f"
+        },
+        {
+            "title": "broccoli",
+            "shape": "bitmap",
+            "color": "#3f4f7f"
+        },
+        {
+            "title": "carrot",
+            "shape": "bitmap",
+            "color": "#3f4a7f"
+        },
+        {
+            "title": "hot dog",
+            "shape": "bitmap",
+            "color": "#3f467f"
+        },
+        {
+            "title": "pizza",
+            "shape": "bitmap",
+            "color": "#3f417f"
+        },
+        {
+            "title": "donut",
+            "shape": "bitmap",
+            "color": "#423f7f"
+        },
+        {
+            "title": "cake",
+            "shape": "bitmap",
+            "color": "#473f7f"
+        },
+        {
+            "title": "chair",
+            "shape": "bitmap",
+            "color": "#4c3f7f"
+        },
+        {
+            "title": "couch",
+            "shape": "bitmap",
+            "color": "#513f7f"
+        },
+        {
+            "title": "potted plant",
+            "shape": "bitmap",
+            "color": "#563f7f"
+        },
+        {
+            "title": "bed",
+            "shape": "bitmap",
+            "color": "#5a3f7f"
+        },
+        {
+            "title": "dining table",
+            "shape": "bitmap",
+            "color": "#5f3f7f"
+        },
+        {
+            "title": "toilet",
+            "shape": "bitmap",
+            "color": "#643f7f"
+        },
+        {
+            "title": "tv",
+            "shape": "bitmap",
+            "color": "#693f7f"
+        },
+        {
+            "title": "laptop",
+            "shape": "bitmap",
+            "color": "#6d3f7f"
+        },
+        {
+            "title": "mouse",
+            "shape": "bitmap",
+            "color": "#723f7f"
+        },
+        {
+            "title": "remote",
+            "shape": "bitmap",
+            "color": "#773f7f"
+        },
+        {
+            "title": "keyboard",
+            "shape": "bitmap",
+            "color": "#7c3f7f"
+        },
+        {
+            "title": "cell phone",
+            "shape": "bitmap",
+            "color": "#7f3f7d"
+        },
+        {
+            "title": "microwave",
+            "shape": "bitmap",
+            "color": "#7f3f79"
+        },
+        {
+            "title": "oven",
+            "shape": "bitmap",
+            "color": "#7f3f74"
+        },
+        {
+            "title": "toaster",
+            "shape": "bitmap",
+            "color": "#7f3f6f"
+        },
+        {
+            "title": "sink",
+            "shape": "bitmap",
+            "color": "#7f3f6a"
+        },
+        {
+            "title": "refrigerator",
+            "shape": "bitmap",
+            "color": "#7f3f65"
+        },
+        {
+            "title": "book",
+            "shape": "bitmap",
+            "color": "#7f3f61"
+        },
+        {
+            "title": "clock",
+            "shape": "bitmap",
+            "color": "#7f3f5c"
+        },
+        {
+            "title": "vase",
+            "shape": "bitmap",
+            "color": "#7f3f57"
+        },
+        {
+            "title": "scissors",
+            "shape": "bitmap",
+            "color": "#7f3f52"
+        },
+        {
+            "title": "teddy bear",
+            "shape": "bitmap",
+            "color": "#7f3f4e"
+        },
+        {
+            "title": "hair drier",
+            "shape": "bitmap",
+            "color": "#7f3f49"
+        },
+        {
+            "title": "toothbrush",
+            "shape": "bitmap",
+            "color": "#7f3f44"
+        }
+    ],
+    "class_title_to_idx": {
+        "bg": 0,
+        "car": 3,
+        "sandwich": 49,
+        "chair": 57,
+        "kite": 34,
+        "truck": 8,
+        "sink": 72,
+        "wine glass": 41,
+        "motorcycle": 4,
+        "snowboard": 32,
+        "giraffe": 24,
+        "elephant": 21,
+        "pizza": 54,
+        "backpack": 25,
+        "cake": 56,
+        "sheep": 19,
+        "airplane": 5,
+        "skis": 31,
+        "bus": 6,
+        "baseball bat": 35,
+        "suitcase": 29,
+        "train": 7,
+        "cat": 16,
+        "orange": 50,
+        "bed": 60,
+        "cup": 42,
+        "tennis racket": 39,
+        "clock": 75,
+        "hot dog": 53,
+        "handbag": 27,
+        "dog": 17,
+        "baseball glove": 36,
+        "remote": 66,
+        "boat": 9,
+        "surfboard": 38,
+        "horse": 18,
+        "toaster": 71,
+        "couch": 58,
+        "knife": 44,
+        "parking meter": 13,
+        "keyboard": 67,
+        "laptop": 64,
+        "spoon": 45,
+        "cow": 20,
+        "hair drier": 79,
+        "zebra": 23,
+        "dining table": 61,
+        "fork": 43,
+        "donut": 55,
+        "skateboard": 37,
+        "umbrella": 26,
+        "person": 1,
+        "scissors": 77,
+        "banana": 47,
+        "toothbrush": 80,
+        "apple": 48,
+        "vase": 76,
+        "traffic light": 10,
+        "stop sign": 12,
+        "tie": 28,
+        "book": 74,
+        "broccoli": 51,
+        "bench": 14,
+        "mouse": 65,
+        "cell phone": 68,
+        "microwave": 69,
+        "toilet": 62,
+        "refrigerator": 73,
+        "fire hydrant": 11,
+        "frisbee": 30,
+        "teddy bear": 78,
+        "tv": 63,
+        "oven": 70,
+        "carrot": 52,
+        "bowl": 46,
+        "bear": 22,
+        "sports ball": 33,
+        "bicycle": 2,
+        "potted plant": 59,
+        "bottle": 40,
+        "bird": 15
+    }
+}
